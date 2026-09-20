@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/pulse/*.json
+data/ritual/*.json
+data/grants/*.json
+data/deployments/*.json
+assets/stealth/generated/
+.env
+*.log

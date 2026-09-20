@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none">
+  <rect width="1200" height="400" fill="#0a0a0f"/>
+  <path d="M0 200 L50 180 L100 220 L150 170 L200 230 L250 160 L300 240 L350 190 L400 210 L450 175 L500 225 L550 185 L600 215 L650 168 L700 232 L750 192 L800 208 L850 172 L900 228 L950 188 L1000 212 L1050 178 L1100 222 L1150 195 L1200 200" stroke="#00ff88" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="60" font-family="monospace" font-size="24" fill="#8888a0">CULTURE PULSE</text>
+</svg>

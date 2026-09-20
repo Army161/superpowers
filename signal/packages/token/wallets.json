@@ -1,0 +1,47 @@
+{
+  "network": "devnet",
+  "token": {
+    "name": "Signal",
+    "symbol": "SIGNAL",
+    "decimals": 9,
+    "totalSupply": 7777777777
+  },
+  "allocations": {
+    "liquidity": {
+      "percent": 70,
+      "tokens": 5444444444,
+      "label": "LP Pool (Raydium)",
+      "lockYears": 5
+    },
+    "communityAirdrop": {
+      "percent": 15,
+      "tokens": 1166666666,
+      "label": "Genesis Signal Waitlist"
+    },
+    "cultureTreasury": {
+      "percent": 10,
+      "tokens": 777777777,
+      "label": "Culture Treasury (3-of-5 multisig)"
+    },
+    "coreContributors": {
+      "percent": 5,
+      "tokens": 388888888,
+      "label": "Core Contributors (2yr vest)",
+      "vestingMonths": 24
+    }
+  },
+  "wallets": {
+    "deployer": "DEPLOY_AT_LAUNCH",
+    "liquidityPool": "DEPLOY_AT_LAUNCH",
+    "cultureTreasury": "DEPLOY_AT_LAUNCH",
+    "communityAirdrop": "DEPLOY_AT_LAUNCH",
+    "coreContributorsVesting": "DEPLOY_AT_LAUNCH"
+  },
+  "launchChecks": [
+    "mint_authority_revoked",
+    "freeze_authority_none",
+    "lp_locked_5_years",
+    "zero_transfer_tax",
+    "public_wallet_labels"
+  ]
+}

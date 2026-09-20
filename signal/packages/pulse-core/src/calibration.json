@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "percentiles": {
+    "p50": { "min": 35, "max": 45 },
+    "p75": { "min": 55, "max": 70 },
+    "p90": { "min": 75, "max": 85 },
+    "p99": { "min": 90, "max": 100 }
+  },
+  "platformWeights": {
+    "x": 0.35,
+    "tiktok": 0.25,
+    "reddit": 0.20,
+    "youtube": 0.15,
+    "googleTrends": 0.05
+  },
+  "spreadBonusPerPlatform": 0.15,
+  "maxSpreadBonus": 0.45,
+  "pulseThresholds": {
+    "warm": 70,
+    "hot": 85,
+    "peak": 95
+  },
+  "treasuryBurnRates": {
+    "PulseWarm": 0.0001,
+    "PulseHot": 0.0005,
+    "PulsePeak": 0.001
+  }
+}

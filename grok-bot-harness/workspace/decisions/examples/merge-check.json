@@ -1,0 +1,7 @@
+{
+  "step": "merge-check",
+  "state": "<<diff summary: files touched, migrations, deletions, git operations>>",
+  "questions": {
+    "overwrites": {"type": "noul", "instructions": "Does this change overwrite data or rewrite history?", "kind": "risk", "park_above": 0.3}
+  }
+}

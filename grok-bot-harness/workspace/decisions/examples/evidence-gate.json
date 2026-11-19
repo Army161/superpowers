@@ -1,0 +1,7 @@
+{
+  "step": "evidence-gate",
+  "state": {"claim": "<<one claim>>", "source": "<<the attached source text or excerpt>>"},
+  "questions": {
+    "supported": {"type": "noul", "instructions": "Is this claim supported by the attached source?", "kind": "check", "fail_below": 0.7, "on_fail": "rework"}
+  }
+}

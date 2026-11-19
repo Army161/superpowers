@@ -1,0 +1,7 @@
+{
+  "step": "shell-command",
+  "state": "Command: <<the exact shell command>>. Working dir: <<path>>.",
+  "questions": {
+    "risky": {"type": "noul", "instructions": "Will this delete files, reach the network or rewrite git history?", "kind": "risk", "park_above": 0.2}
+  }
+}

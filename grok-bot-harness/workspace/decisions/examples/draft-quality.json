@@ -1,0 +1,9 @@
+{
+  "step": "draft-quality",
+  "state": "<<paste the draft and the list of sources in /workspace/research it cites>>",
+  "questions": {
+    "clarity": {"type": "score", "instructions": "How clear is this draft?", "levels": {"1": "Confusing", "2": "Hard to follow", "3": "Readable", "4": "Clear", "5": "Crisp"}, "min": 4},
+    "evidence": {"type": "score", "instructions": "Every claim has a source in /workspace/research.", "levels": {"1": "No sources", "2": "Few claims sourced", "3": "About half sourced", "4": "Nearly all sourced", "5": "Every claim sourced"}, "min": 4},
+    "hook": {"type": "score", "instructions": "How strong is the opening hook?", "levels": {"1": "None", "2": "Weak", "3": "Okay", "4": "Strong", "5": "Irresistible"}, "min": 4}
+  }
+}

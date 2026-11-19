@@ -1,0 +1,28 @@
+{
+  "step": "inbox-triage",
+  "state": {
+    "sender": "jane@example.com",
+    "subject": "Charged twice for November",
+    "first_800_chars": "Hi, I was charged twice for my November subscription. Can you refund one of them? Thanks, Jane",
+    "thread_length": 1
+  },
+  "questions": {
+    "team": {
+      "type": "choice",
+      "instructions": "Which team owns this message?",
+      "criteria": {"sales": "Buying, pricing, demos.", "support": "Using the product, bugs, how-to.", "billing": "Charges, refunds, invoices.", "spam": "Unsolicited or irrelevant."}
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "How urgent is this message?",
+      "levels": {"1": "Can wait a week", "2": "This week", "3": "Within a day", "4": "Within hours", "5": "Right now"},
+      "park_at_or_above": 4
+    },
+    "human_first": {
+      "type": "noul",
+      "instructions": "Does a person need to see this before any reply?",
+      "kind": "risk",
+      "park_above": 0.3
+    }
+  }
+}

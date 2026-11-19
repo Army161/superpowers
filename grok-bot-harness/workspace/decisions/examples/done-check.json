@@ -1,0 +1,7 @@
+{
+  "step": "done-check",
+  "state": {"acceptance_criteria": "<<from the task file>>", "fresh_test_output": "<<paste the latest test run, not the bot's summary>>"},
+  "questions": {
+    "done": {"type": "noul", "instructions": "Does the fresh test output show every acceptance criterion is met?", "kind": "check", "fail_below": 0.8, "on_fail": "rework"}
+  }
+}

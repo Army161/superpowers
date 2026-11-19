@@ -1,0 +1,23 @@
+{
+  "step": "which-model",
+  "state": "Task: rename the config key `retries` to `max_retries` in 3 files. Files already read this session. Tests exist and pass.",
+  "questions": {
+    "tier": {
+      "type": "choice",
+      "instructions": "Which model should take this step?",
+      "criteria": {
+        "cheap": "Local mechanical edit, low risk.",
+        "frontier": "New design or unread code.",
+        "ask": "Brief unclear; a person decides."
+      },
+      "escalate_on": ["ask"],
+      "min_confidence": 0.75
+    },
+    "destructive": {
+      "type": "noul",
+      "instructions": "Will this delete or overwrite data?",
+      "kind": "risk",
+      "park_above": 0.5
+    }
+  }
+}
